@@ -6,9 +6,10 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import random
 
-# replace with your Instagram login details
-my_username = "daily__tech.news"
-my_password = "MyinstaB.com"
+# get Instagram login details from user input
+my_username = input("Enter your Instagram username: ")
+my_password = input("Enter your Instagram password: ")
+
 
 # replace with the Instagram post URL you want to comment on
 post_url = "https://www.instagram.com/p/Crh1ypTsmCs/"
